@@ -32,7 +32,7 @@ dependencyOverrides ++= Set(
 
 docsInputDir := baseDirectory.value + "/src/main/scala/"
 
-docsOutputDir := "docs/src/titandb/"
+docsOutputDir := "docs/src/"
 
 mergeStrategy in assembly ~= { old => {
     case PathList("META-INF", "CHANGES.txt")                      => MergeStrategy.rename
