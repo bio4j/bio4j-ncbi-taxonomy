@@ -63,7 +63,7 @@ case object NCBITaxonomyImportedData extends ImportedDataBundle(
 
 case object NCBITaxonomyModule extends ModuleBundle(NCBITaxonomyAPI, NCBITaxonomyImportedData)
 
-case object NCBITaxonomyMetadata extends generated.metadata.Bio4jNcbiTaxonomy()
+case object NCBITaxonomyMetadata extends generated.metadata.NcbiTaxonomyModule()
 
 case object NCBITaxonomyRelease extends ReleaseBundle(
   ObjectAddress("bio4j.releases", 
